@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap');
+
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+main{
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../assets/main.jpeg');
+  
+  font-size: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 95vh;
+}
+
+.text-light{
+  max-width: 1180px;
+  margin-left: 60px;
+  
+}
+
+.navbar{
+  font-weight: bold;
+  
+}
+
+.navbar .navbar-expand-lg .navbar-dark .bg-dark{
+  border: 1px solid black;
+}
+.navbar-brand{
+  max-width: 1180px;
+  margin-left: 10px;
+}
+.navbar-nav{
+  margin-right: 80px;
+}
+.main-content{
+  width: 1180px;
+  margin-right: 10px;
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  transform: translate(-50%,-50%);
+}
+
+h2{
+  color: #696969;
+  font-size: 240%;
+  
+  word-spacing: 5px;
+
+  letter-spacing: 3px;
+}
+.colorChange{
+  color: #696969;
+  font-size: 40%;
+ 
+  
+}
+
+footer{
+  font-size: 40px;
+  background-color: #00CED1;
+  background-size: cover;
+  
+}
+.col-md-8{
+  margin-left: 40px;
+  width: 1180px;
+  position: relative;
+
+}
+
+h4{
+  font-family: 'Russo One', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+ 
+}
+
+.btn {
+  margin-top:20px;
+  /* margin-left:2200px; */
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+ }

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap');
+
+ body {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/motive.jpeg');
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 95vh;
+}
+.glyphicon{
+    color:#00CED1 ;
+}
+.text-light{
+    max-width: 1180px;
+    margin-left: 60px;
+}
+
+.navbar{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    max-width: 1180px;
+    margin-left: 70px;
+}
+.navbar-nav{
+    margin-right: 80px;
+}
+.main-content{
+    width: 1180px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    color: white;
+    font-size: 240%;
+    word-spacing: 5px;
+  
+    letter-spacing: 3px;
+}
+.colorChange{
+    color: #DCDCDC;
+    font-size: 40%;
+    margin-top: 5px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+footer{
+    font-size: 40px;
+    background-color: #00CED1;
+    background-size: cover;
+    
+  }
+  .col-md-8{
+    margin-left: 40px;
+    width: 1180px;
+    position: relative;
+  
+  }
+  
+  h4{
+    font-family: 'Russo One', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+   
+  }
+  
+  .btn {
+    margin-top:20px;
+    /* margin-left:2200px; */
+    float: right;
+  }
+  
+  .clearfix{
+    clear: both;
+   }
